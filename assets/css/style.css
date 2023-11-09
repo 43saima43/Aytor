@@ -1,0 +1,209 @@
+/* 
+Theme Name:Aytor
+Theme Version:1.0.0
+Author Name:
+Author URI:
+Description:
+
+Table of Content
+=============================
+**Home Page
+1)Header
+  1.1)Top Bar
+  1.2)Navigation
+2)Hero Area
+3)Featured  Category
+*/
+
+
+
+/* common css start */
+:root{
+    --primary-font: 'Josefin Sans', sans-serif;
+    --secondary-font: 'Roboto', sans-serif;
+    --text-color:#11161E;
+    --dark-hover-color:#151A32;
+    --light-color:#FFFFFF;
+    --primary-color-light:#FF6F61;
+    --primary-color-dark:#FF5645;
+    --paragraph-color:#444444;
+    --bg-color-dark:#F1F1F1;
+    --bg-color-light:#F1F3F4;
+    --dark-color:#000000;
+    --border-color:#8c8c8c;
+    --shadow-22:0 3px 10px 0px rgba(var(--dark-color),0.08);
+    --shadow-32:0 0px 50px 0px rgba(var(--dark-hover-color),0.1);
+    --shadow-42:0 5px 30px 0px rgba(var(--text-color),0.08);
+
+   
+}
+h1,h2,h3,h4,h5,h6,
+ul,li,ol,
+p,
+span {
+    margin: 0;
+    padding: 0;
+}
+a,a:hover{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+body{
+    font-family: var(--primary-font);
+}
+p{
+    font-family: var(--secondary-font);
+}
+.text-justify{
+    text-align: center;
+}
+/* common css end */
+
+
+#top_bar{
+    background-color: var(--dark-hover-color);
+    color: var(--light-color);
+    padding: 11px 0px;
+}
+#top_bar p i{
+    color: var(--primary-color-light);
+    margin-right: 4px;
+}
+#top_bar p {
+  
+    line-height: 26px;
+}
+#top_bar p span{
+    color: var(--primary-color-light);
+    font-family: var(--primary-font);
+    
+}
+
+#top_bar .top_bar_right ul:first-child li{
+    border-right: 1px solid var(--border-color);
+    padding: 0px 20px;
+}
+#top_bar .top_bar_right  a{
+    margin-right: 10px;
+    color: var(--light-color);
+    line-height: 28px;
+    margin-left: 20px;
+    transition: .5s;
+    
+}
+#top_bar .top_bar_right  a:hover{
+    color: var(--primary-color-light);
+}
+footer{
+    background-color: var(--bg-color-light);
+}
+footer .footer_first{
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+.footer_first h2{
+    color: var(--text-color);
+    font-family: var(--primary-font);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px; 
+    width: 493px;
+    height: 46px;
+}
+.footer_first p{
+    color: var(--paragraph-color);
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 28px; 
+   font-style: normal;
+   width: 493px;
+   height: 54px;
+}
+.footer_second input{
+    color: #8F8F8F;
+    padding: 16px 272px 16px 20px;
+    border: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    width: 420px;
+    height: 60px;
+    font-family: var(--secondary-font);
+}
+.footer_second button{
+     background-color: var(--primary-color-light);
+     color: var(--light-color);
+     padding: 15px 50px;
+     border: none;
+     width: 180px;
+     height: 60px;
+     text-align: center;
+}
+.footer_widget1 .img1{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.footer_widget1 p{
+    padding-bottom: 15px;
+    color: var(--paragraph-color);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    font-size: 16px;
+  
+}
+.footer_widget1 ul li a{
+
+ color: var(--paragraph-color);
+ margin-right: 26px;
+ transition: .5s;
+
+}
+.footer_widget1 ul li a:hover{
+    color: var(--primary-color-light); 
+}
+.footer_widget h2{
+    color: var(--text-color);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px; 
+    font-family: var(--primary-font);
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+.footer_widget a{
+color: var(--paragraph-color);
+
+
+font-family: var(--secondary-font);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; 
+}
+.footer_widget a:hover{
+    color: var(--primary-color-light);
+}
+.footer_widget2 p{
+    color: var(--paragraph-color);
+
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; 
+}
+.footer_widget2{
+    padding: 25px  0px;
+    background-color: var(--bg-color-light);
+
+  
+}
+.footer_widget2 span{
+    color: var(--primary-color-light);
+}
+
